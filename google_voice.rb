@@ -14,10 +14,7 @@ class GoogleVoiceText
   NUMBER = ""   # 123-555-1212
   TEXT = ""     # welcome to the jungle!
 
-  USERNAME = "scottsmit@gmail.com"
-  PASSWORD = "oit2a6o1B5Ddv9di3et0cS"
-  NUMBER = "2063545546"
-  TEXT = "so what the f $105 for the jungle baby"
+  TEXT = "so whats that about 'Your in the jungle baby'"
 
   def get_mech
     Mechanize.html_parser = Nokogiri::HTML
